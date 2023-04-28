@@ -1,0 +1,59 @@
+.cuerpo{
+    background-image:url('https://images.squarespace-cdn.com/content/v1/5981c7129f7456741cde6662/1513941017953-6Q55TMKWDS8GMWUWD346/clem-onojeghuo-197516.jpg?format=1500w');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ddd3d3;
+}
+
+h1{
+    color: rgb(226, 131, 43);
+    font-size: 50px;
+    
+}
+h2{
+    color: rgb(162, 226, 43);
+    font-size: 40px;
+}
+
+b{
+    color: rgb(226, 49, 43);
+    font-size: 30px;
+}
+
+th{
+    color: rgb(226, 177, 43);
+    font-size: 20px;
+}
+td{
+    color: rgb(255, 0, 170);
+}
+
+.formulario{
+    display: flex;
+    justify-content:center;
+    align-items:center;   
+
+
+}
+a{
+    display: flex;
+    justify-content :center;
+    color: aliceblue;
+    cursor: all-scroll;;
+
+    
+}
+
+@media (min-width: 768px ) and (max-width: 1024px){
+.table{
+    display: flex;
+    border: 1px solid red;
+}
+.gif{
+    display: flex;
+}
+.cuerpo{
+    display: flex;
+}
+

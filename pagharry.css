@@ -1,0 +1,120 @@
+.cuerpo{
+    background-image:url('https://images.wallpapersden.com/image/download/hogwarts-legacy-2023-hd_bW5namuUmZqaraWkpJRnamtlrWZpaWU.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+h1{
+    color: rgb(226, 131, 43);
+    font-size: 50px;
+    
+}
+h2{
+    color: rgb(162, 226, 43);
+    font-size: 40px;
+}
+
+b{
+    color: rgb(226, 49, 43);
+    font-size: 30px;
+}
+
+th{
+    color: rgb(226, 177, 43);
+    font-size: 20px;
+}
+td{
+    color: rgb(255, 0, 170);
+}
+
+.formulario{
+    display: flex;
+    justify-content:center;
+    align-items:center;   
+
+
+}
+a{
+    display: flex;
+    justify-content :center;
+    color: aliceblue;
+    cursor: all-scroll;
+
+    
+}
+
+@media (min-width: 768px ) and (max-width: 1024px){
+.table{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.gif{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+@media (min-width: 481px ) and (max-width: 767px){
+    .table{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .gif{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid red;   
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    }
+
+@media (min-width: 368px ) and (max-width: 480px){
+        .table{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid red;
+        }
+        .gif{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid red;   
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        }
